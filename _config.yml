@@ -5,6 +5,7 @@ collections:
   articles:
     title: Articles
     output: true
+    Field name: codepen_link
   posts:
     title: Posts
     output: true
