@@ -5,7 +5,8 @@ collections:
   articles:
     title: Articles
     output: true
-    Field name: codepen_link
+    CodePen Link: codepen_link
+    GitHub Link: github_link
   posts:
     title: Posts
     output: true
