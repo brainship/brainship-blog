@@ -2,14 +2,14 @@
 title: Brainship
 timezone: UTC
 collections:
+  articles:
+    title: Articles
+    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
-    output: true
-  articles:
-    title: Articles
     output: true
 email: your-email@domain.com
 description: 'Write an awesome description for your new site here. You can edit this
