@@ -5,8 +5,6 @@ collections:
   articles:
     title: Articles
     output: true
-    CodePen Link: codepen_link
-    GitHub Link: github_link
   posts:
     title: Posts
     output: true
