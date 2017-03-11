@@ -309,8 +309,8 @@ div.ruby-menu-demo-download > span > span {
 }
 
 button.ruby-btn {
-  background: #19ad86;
-  border: 2px solid #19ad86;
+  background: #1C85E5;
+  border: 2px solid #1C85E5;
   color: #fff;
   border-radius: 0;
   padding: 10px 25px;
@@ -321,7 +321,7 @@ button.ruby-btn {
 
 button.ruby-btn:hover {
   background: #fff;
-  color: #19ad86;
+  color: #1C85E5;
 }
 
 /* on/off switches */

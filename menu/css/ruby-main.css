@@ -46,7 +46,7 @@ ul.ruby-menu > li > a {
   display: block;
   line-height: 50px;
   padding: 0 25px 0 15px;
-  color: #efefef;
+  color: #FFF;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -61,7 +61,7 @@ ul.ruby-menu > li > a:hover,
 ul.ruby-menu > li:hover > a,
 ul.ruby-menu > li.ruby-active-menu-item > a:hover,
 ul.ruby-menu > li.ruby-active-menu-item:hover > a {
-  background: #19ad86;
+  /*background: #19ad86;*/
 }
 
 ul.ruby-menu > li > a:only-child:after,
@@ -71,7 +71,8 @@ ul.ruby-menu > li:hover > a:only-child:after {
 }
 
 ul.ruby-menu > li.ruby-active-menu-item > a {
-  background: #17a47d;
+  /*background: #CCC;*/
+  border-bottom: 2px solid #1C85E5;
 }
 
 ul.ruby-menu > li > a .fa {
@@ -174,20 +175,18 @@ ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li:first-child > a {
 
 ul.ruby-menu.ruby-menu-dividers > li > a:hover,
 ul.ruby-menu.ruby-menu-dividers > li:hover > a {
-  border-right: 1px solid #19ad86; /* theme main li:hover color */
 }
 
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li > a:hover,
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li:hover > a {
-  border-bottom: 1px solid #19ad86; /* theme main li:hover color */
 }
 
 ul.ruby-menu.ruby-menu-dividers > li.ruby-active-menu-item > a {
-  border-right: 1px solid #17a47d;
+  /*border-right: 1px solid #17a47d;*/
 }
 
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li.ruby-active-menu-item > a {
-  border-bottom: 1px solid #17a47d;
+  /*border-bottom: 1px solid #17a47d;*/
 }
 
 /* RUBY 2ND LEVEL */
@@ -198,7 +197,7 @@ ul.ruby-menu > li > ul > li > ul > li > ul {
   -webkit-box-shadow: 0px 8px 24px -5px #ccc;
   -moz-box-shadow: 0px 8px 24px -5px #ccc;
   box-shadow: 0px 8px 24px -5px #ccc;
-  border-top: 4px solid #19ad86;
+  border-top: 4px solid #1C85E5;
 }
 
 ul.ruby-menu > li > ul > li,
@@ -270,7 +269,7 @@ ul.ruby-menu > li.ruby-menu-mega-shop > div {
   top: 50px;
   left: 0;
   background: #fff;
-  border-top: 4px solid #19ad86;
+  border-top: 4px solid #1C85E5;
   overflow: hidden;
   -webkit-box-shadow: 0px 8px 24px -5px #ccc;
   -moz-box-shadow: 0px 8px 24px -5px #ccc;
@@ -405,7 +404,7 @@ div.ruby-grid.ruby-grid-lined > div.ruby-row:after {
   height: 1px;
   left: 0;
   bottom: 0;
-  background: -webkit-linear-gradient(left,  rgba(204,204,204,0) 0%,rgba(204,204,204,0.48) 24%,rgba(204,204,204,1) 50%,rgba(204,204,204,0.42) 79%,rgba(204,204,204,0) 100%); /* Chrome10+,Safari5.1+ */
+  /*background: -webkit-linear-gradient(left,  rgba(204,204,204,0) 0%,rgba(204,204,204,0.48) 24%,rgba(204,204,204,1) 50%,rgba(204,204,204,0.42) 79%,rgba(204,204,204,0) 100%); /* Chrome10+,Safari5.1+ */*/
 }
 
 div.ruby-grid.ruby-grid-lined > div.ruby-row:last-child:after {
@@ -611,7 +610,7 @@ span.ruby-c-date a {
 
 span.ruby-c-category a:hover,
 span.ruby-c-date a:hover {
-  color: #19ad86
+  color: #1C85E5
 }
 /*inline */
 div.ruby-c-inline {
@@ -764,10 +763,10 @@ span.ruby-c-content {
     height: 1px;
     position: absolute;
     content: '';
-    background-color: #19ad86;
+    background-color: #1C85E5;
     width: 0;
   }
-  
+
   ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > a:before {
     top: 10px;
     left: 5%;

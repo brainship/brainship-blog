@@ -6,25 +6,25 @@
 
 div.ruby-wrapper,
 div.ruby-wrapper.ruby-vertical {
-  background: #333;
+  background: #FFF;
 }
 
 /* RUBY 1ST LEVEL */
 ul.ruby-menu > li > a {
-  color: #efefef;
+  color: #333;
 }
 
 ul.ruby-menu > li > a:hover,
 ul.ruby-menu > li:hover > a,
 ul.ruby-menu > li.ruby-active-menu-item > a:hover,
 ul.ruby-menu > li.ruby-active-menu-item:hover > a {
-  background: #19ad86;
-  color: #efefef;
+  /*background: #19ad86;*/
+  /*color: #efefef;*/
 }
 
 ul.ruby-menu > li.ruby-active-menu-item > a {
-  background: #17a47d;
-  color: #efefef;
+  /*background: #17a47d;*/
+  /*color: #efefef;*/
 }
 
 /* RUBY SEARCH */
@@ -48,8 +48,8 @@ ul.ruby-menu > li.ruby-menu-social.ruby-menu-search > a > span input:focus {
 /* RUBY MENU DIVIDERS */
 ul.ruby-menu.ruby-menu-dividers > li > a,
 ul.ruby-menu.ruby-menu-dividers > li.ruby-menu-social > a {
-  border-left: 1px solid #111;
-  border-right: 1px solid #666;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
 }
 
 ul.ruby-menu.ruby-menu-dividers > li:first-child > a,
@@ -59,8 +59,8 @@ ul.ruby-menu.ruby-menu-dividers > li.ruby-menu-social:last-child > a {
 
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li > a {
   border: none;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #666;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
 }
 
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li:first-child > a {
@@ -69,27 +69,26 @@ ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li:first-child > a {
 
 ul.ruby-menu.ruby-menu-dividers > li > a:hover,
 ul.ruby-menu.ruby-menu-dividers > li:hover > a {
-  border-right: 1px solid #19ad86; /* theme main li:hover color */
+
 }
 
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li > a:hover,
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li:hover > a {
-  border-bottom: 1px solid #19ad86; /* theme main li:hover color */
 }
 
 ul.ruby-menu.ruby-menu-dividers > li.ruby-active-menu-item > a {
-  border-right: 1px solid #17a47d;
+  /*border-right: 1px solid #17a47d;*/
 }
 
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li.ruby-active-menu-item > a {
-  border-bottom: 1px solid #17a47d;
+  /*border-bottom: 1px solid #17a47d;*/
 }
 
 /* RUBY 2ND, 3RD, 4TH LEVEL */
 ul.ruby-menu > li > ul,
 ul.ruby-menu > li > ul > li > ul,
 ul.ruby-menu > li > ul > li > ul > li > ul {
-  border-top: 4px solid #19ad86;
+  /*border-top: 4px solid #19ad86;*/
 }
 
 ul.ruby-menu > li > ul > li > a,
@@ -113,7 +112,7 @@ ul.ruby-menu > li.ruby-menu-mega > div,
 ul.ruby-menu > li.ruby-menu-mega-blog > div,
 ul.ruby-menu > li.ruby-menu-mega-shop > div {
   background: #fff;
-  border-top: 4px solid #19ad86;
+  border-top: 4px solid #1C85E5;
 }
 
 /* RUBY MENU MEGA BLOG */
@@ -192,7 +191,7 @@ span.ruby-c-date a:hover {
 @media(min-width:768px) {
   ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > a:before,
   ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > a:after {
-    background-color: #19ad86;
+    background-color: #1C85E5;
   }
 
   ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > a:hover {
@@ -209,7 +208,7 @@ span.ruby-c-date a:hover {
 /* MEDIA QUERY --> EXTRA SMALL DEVICES */
 @media(max-width:767px){
   ul.ruby-menu > li > a {
-    background: #19ad86;
+    background: #1C85E5;
   }
 
   ul.ruby-menu > li > a:hover,
@@ -312,7 +311,7 @@ span.ruby-c-date a:hover {
   }
 
   .c-hamburger--htx {
-    background-color: #19ad86;
+    background-color: #1C85E5;
   }
 
   .c-hamburger--htx.is-active {
