@@ -50,7 +50,6 @@ ul.ruby-menu > li > a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	text-transform: uppercase;
 }
 
 ul.ruby-menu > li > a:only-child {
