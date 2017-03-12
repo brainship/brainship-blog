@@ -4,7 +4,6 @@ date: 2017-03-09 01:17:00 Z
 categories:
 - welcome
 layout: post
-permalink: /blog/posts/:categories/:year/:month/:day/:title
 ---
 
 Hi, I'm Gaurav! You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
