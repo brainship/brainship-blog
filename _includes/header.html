@@ -1,18 +1,20 @@
 <header class="site-header" role="banner">
   <!-- ########################### -->
   <!-- START: RUBY HORIZONTAL MENU -->
+  {% assign current_url = page.url | downcase | split: '/' %}
   <div class="ruby-wrapper ruby-menu-full-width">
     <button class="c-hamburger c-hamburger--htx visible-xs">
       <span>toggle menu</span>
     </button>
     <ul class="ruby-menu ruby-menu-dividers">
-      <li class="ruby-active-menu-item"><a href="/">Home</a></li>
+      <li{% if page.url == '/' %} class="ruby-active-menu-item"{% endif %} ><a href="/">Home</a></li>
       <li><a href="#">Learn</a>
         <ul>
           <li><a href="https://www.google.com">Intro Concepts</a></li>
           <li><a href="/">Core Java</a></li>
         </ul>
       </li>
+      <li {% if current_url[1] == 'blog' %}class="ruby-active-menu-item"{% endif %} ><a href="/blog">Blog</a>
       <li class="ruby-menu-right"><a href="#">About</a>
         <ul>
           <li><a href="/about">About Us</a></li>
