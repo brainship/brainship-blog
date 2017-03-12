@@ -3,17 +3,14 @@ layout: default
 ---
 
 <div class="home">
-
-  <div class="monkey" class="page-header">
-    <h1>A new resource to learn Software Engineering.</h1>
+    <h1 class="home-heading">A new resource to learn Software Engineering.</h1>
     <br />
     <div class="">
       Core Java
     </div>
-  <div>
   <br />
-  <ul style="font-size:14px;" class="list-group">
-  {% for article in site.java_articles %}
+  <ul style="margin-left:0px; font-size:14px;" class="list-group">
+  {% for article in site.java %}
     <li class="list-group-item"><a href="{{article.url}}">{{ article.title }}</a></li>
   {% endfor %}
   </ul>
