@@ -1,6 +1,7 @@
 ---
 title: Hello world java
 layout: article
+category: core
 ---
 
 Hello world in java.
