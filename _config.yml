@@ -11,14 +11,20 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:categories/:year/:month/:day/:title"
 email: info@brainship.com
 description: 'Brainship is the place for becoming a better software developer. Whether
   you are a beginner or someone who is looking to get to the next level, we welcome
   you to use us to further our skill set.  Our main motto is, get stuff done!
 
 '
-baseurl:
-url:
+baseurl: 
+url: 
 twitter_username: brainshiphq
 github_username: brainship
 markdown: kramdown
@@ -28,9 +34,3 @@ exclude:
 - Gemfile
 - Gemfile.lock
 permalink: pretty
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:categories/:year/:month/:day/:title"
