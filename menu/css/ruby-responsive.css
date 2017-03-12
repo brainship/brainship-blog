@@ -16,7 +16,7 @@
     position: absolute;
     width: 100%;
     top: 0;
-    background: #111;
+    background: #FFF;
   }
 
   .ruby-wrapper .visible-xs {
@@ -54,11 +54,11 @@
   ul.ruby-menu > li > a:hover,
   ul.ruby-menu > li:hover > a,
   ul.ruby-menu > li.ruby-active-menu-item > a:hover {
-    background: #127e61;
+    background: #fff;
   }
 
   ul.ruby-menu > li.ruby-active-menu-item > a {
-    background: #159572;
+    background: #E5E5E5;
   }
 
   ul.ruby-menu > li.ruby-menu-social > a > span {
@@ -540,7 +540,7 @@
    * down to center and transform into an "x".
    */
   .c-hamburger--htx {
-    background-color: #19ad86;
+    background-color: #1c85e5;
   }
 
   .c-hamburger--htx span {
