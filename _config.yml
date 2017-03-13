@@ -17,8 +17,7 @@ defaults:
     type: posts
   values:
     permalink: "/blog/:categories/:year/:month/:day/:title"
-    layout: "post"
-
+    layout: post
 description: 'Brainship is the place for becoming a better software developer. Whether
   you are a beginner or someone who is looking to get to the next level, we welcome
   you to use us to further our skill set.  Our main motto is, get stuff done!
